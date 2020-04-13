@@ -4,3 +4,28 @@
 * {
 	box-sizing: border-box;
 }
+
+body {
+	font-size: 10px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+.hero {
+	background-attachment: fixed;
+	background-image: url(../img/capa-madmax2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	justify-content: space-between;
+	padding: 20px;
+	position: relative;
+	width: 100%;
+}
